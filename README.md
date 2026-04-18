@@ -53,9 +53,7 @@ cv-lora-classifier/
 ├── configs/
 │   └── train_config.yaml
 ├── data/
-│   └── .gitkeep
 ├── outputs/
-│   └── .gitkeep
 └── src/
     ├── train.py
     ├── infer.py
