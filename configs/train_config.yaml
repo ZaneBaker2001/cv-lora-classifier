@@ -1,0 +1,25 @@
+seed: 42
+device: cuda
+
+data:
+  root_dir: data
+  image_size: 224
+  selected_classes: ["AnnualCrop", "Forest", "Highway", "Residential", "River"]
+
+train:
+  batch_size: 32
+  num_workers: 2
+  epochs: 5
+  lr: 0.001
+  weight_decay: 0.0001
+  save_dir: outputs
+
+model:
+  lora_rank: 8
+  lora_alpha: 16
+  lora_dropout: 0.1
+
+inference:
+  heatmap_sigma: 3.0
+  heatmap_threshold: 0.45
+  num_examples: 16
