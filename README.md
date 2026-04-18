@@ -111,7 +111,7 @@ python3 -m src.infer \
 
 This project includes a FastAPI app for serving predictions. 
 
-Start the API
+Start the API:
 
 ```bash
 python3 -m uvicorn src.api.main:app --reload --host 0.0.0.0 --port 8000
