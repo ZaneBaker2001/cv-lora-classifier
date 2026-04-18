@@ -185,6 +185,9 @@ docker run --rm \
 
 ## Training Curve Results
 
+![Loss Curve](./outputs/loss_curve.png)
+![Metrics Curve](./outputs/metrics_curve.png)
+
 The training curves show that the model learns quickly and reaches strong validation performance within the first few epochs.
 
 ### Loss curve
@@ -214,6 +217,8 @@ After **epoch 3**, the curves flatten, which suggests the model is approaching c
 The training curves suggest that the model converges efficiently, achieves strong validation performance, and shows no major signs of unstable optimization or severe overfitting over the 5-epoch run. Most of the useful learning happens early, with later epochs providing smaller refinements.
 
 ## Confusion Matrix Results
+
+![Confusion Matrix](./outputs/confusion_matrix.png)
 
 The confusion matrix shows that the model performs strongly on most EuroSAT classes, with the clearest results on **Forest**, **AnnualCrop**, and **River**.
 
