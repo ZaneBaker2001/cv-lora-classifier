@@ -52,6 +52,8 @@ cv-lora-classifier/
 ├── requirements.txt
 ├── configs/
 │   └── train_config.yaml
+├── data/
+│   └── .gitkeep
 ├── outputs/
 │   └── .gitkeep
 └── src/
@@ -120,8 +122,9 @@ python3 -m uvicorn src.api.main:app --reload --host 0.0.0.0 --port 8000
 ## API Docs 
 
 Once the server is running, open:
-
+```
 http://127.0.0.1:8000/docs
+```
 
 ## API Request
 
